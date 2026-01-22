@@ -17,6 +17,19 @@ body, html{
     overflow-x: hidden;
     width: 100vw;
 }
+#Logo{
+    font-family: "ff-market-web-pro-condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 8px;
+    background-color: rgb(162, 162, 219);
+}
 
 main{
     min-height: 100vh;
