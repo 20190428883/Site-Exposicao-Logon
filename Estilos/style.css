@@ -19,9 +19,9 @@ body, html{
 }
 #Logo{
     color: rgb(50, 50, 216);
-    font-family: "ff-market-web-pro-condensed", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    font-family: "ethnocentric", sans-serif;
+    font-weight: 300;
+    font-style: italic;
     display: block;
     position: absolute;
     top: 40px;
@@ -146,4 +146,7 @@ form > a.botao{
 }
 form > a.botao:hover{
     background-color: #6cd3cf;
+}
+form > a.botao:active{
+    transition: transform .3s, border 1s;
 }
